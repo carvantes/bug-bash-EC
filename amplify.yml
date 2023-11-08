@@ -5,6 +5,6 @@ frontend:
       commands:
         - echo "nothing to do"
   artifacts:
-    baseDirectory: build
+    baseDirectory: mybuild
     files:
       - '**/*'
