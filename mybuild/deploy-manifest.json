@@ -9,9 +9,9 @@
       }
     },
     {
-      "path": "/img",
+      "path": "/*",
       "target": {
-        "kind": "ImageOptimization"
+        "kind": "Static"
       }
     }
   ]
