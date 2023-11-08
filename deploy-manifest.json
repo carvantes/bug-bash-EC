@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "framework":
+    {
+        "name": "custom-nestorba",
+        "version": "0.0.1"
+    },
+    "routes":
+    [
+        {
+            "path": "/static/*",
+            "target":
+            {
+                "kind": "Static"
+            }
+        },
+        {
+            "path": "/img",
+            "target":
+            {
+                "kind": "ImageOptimization"
+            }
+        }
+    ]
+}
